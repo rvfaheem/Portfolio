@@ -2,7 +2,7 @@ import image1 from '../Images/Project0.jpg'
 import image2 from '../Images/Project2.jpg'
 import image3 from '../Images/Project3.jpg'
 import image4 from '../Images/Project4.jpg'
-import image5 from '../Images/redux.jpg'
+
 export default function Projects() {
     const config={
         projects:[
@@ -26,11 +26,7 @@ export default function Projects() {
             description: 'A responsive React app that fetches and displays real-time weather details for any city using the OpenWeatherMap API.',
             link: 'https://weather-app-zeta-livid-71.vercel.app/'
         },
-        {
-            image: image5,
-            description: 'You’ve created a Redux function in React to manage state and allow components to interact with the store through actions and reducers.',
-            link: 'https://redux-sand-nine.vercel.app/'
-        }
+
         ]
     }
     return <section id='projects' className='flex flex-col px-5 py-20 justify-center bg-secondary text-white'>
