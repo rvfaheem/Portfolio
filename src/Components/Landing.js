@@ -8,8 +8,8 @@ export default function Landing() {
         subtitle: 'I am Mern Stack Developer',
         social:{
             'linkdn':'https://www.linkedin.com/in/faheem-rv-833956235/',
-            'facebook':'',
-            'github':''
+            // 'facebook':'',
+            'github':'https://github.com/rvfaheem'
         }
     }
     return <section className='flex flex-col md:flex-row px-5 py-32 bg-secondary justify-around'>
