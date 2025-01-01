@@ -24,7 +24,7 @@ export default function Landing() {
             <div className='py-5 flex flex-row '>
                 <a className="pr-5 hover:text-white" href={config.social.linkdn}><FaLinkedin size={30} /> </a>
                 <a className="pr-5 hover:text-white" href="#"><FaFacebook size={30} /> </a>
-                <a className="hover:text-white" href="#"><FaGithub size={30} /> </a>
+                <a className="hover:text-white" href={config.social.github}><FaGithub size={30} /> </a>
             </div>
         </div>
 
